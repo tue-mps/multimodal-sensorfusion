@@ -15,7 +15,7 @@ Early fusion using (a) camera, (b) sparser radar point cloud, and (c) denser lid
 </p>
 
 The models are trained and tested on the [RADIal dataset](https://github.com/valeoai/RADIal/tree/main). The dataset can be downloaded
-[here](https://github.com/valeoai/RADIal/tree/main#labels:~:text=Download%20instructions). We are primarily using camera images, radar and lidar point cloud data for our experiments. For object detection, we use the labels provided, but for free space segmentation the labels are converted to the perspective view as they provide labels in polar domain.
+[here](https://github.com/valeoai/RADIal/tree/main?tab=readme-ov-file#download-instructions). We are primarily using camera images, radar and lidar point cloud data for our experiments. For object detection, we use the labels provided, but for free space segmentation the labels are converted to the perspective view as they provide labels in polar domain.
 
 ## Setting up the virtual environment
 0. Clone the repo and set up the conda environment:
