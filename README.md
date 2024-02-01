@@ -47,19 +47,23 @@ Please run the following to train the model. Camera-Radar-Lidar early fusion for
 $ python 1-Train.py
 ```
 ### Evaluation
-To evaluate the model performance, please run:
+To evaluate the model performance, please load the trained model and run:
 ```bash
 $ python 2-Evaluation.py
 ```
 ### Testing
-To obtain qualitative results, please run:
+To obtain qualitative results, please load the trained model and run:
 ```bash
 $ python 3-Test.py
 ```
-
+### Computational complexity
+To compute Frames Per Second (FPS), please load the trained model and run:
+```bash
+$ python 4-FPS.py
+```
 ## Acknowledgments
 - Thanks to Eindhoven University of Technology and Elektrobit Automotive GmbH for their continous support.
 
 ## License
-The PolarSegFusionNet repo is released under the Clear BSD license. 
+The repo is released under the BSD 3-Clause License.
 Patent status: "patent applied for".
