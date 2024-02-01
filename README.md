@@ -9,6 +9,7 @@ Cameras offer high-resolution visual data, but face limitations in low light con
 
 
 ## Fusion Architecture
+Early fusion using (a) camera, (b) sparser radar point cloud, and (c) denser lidar point cloud input is shown below. The red, blue, purple and green dotted lines represent the camera only, camera-radar, camera-lidar and camera-radar-lidar architecture respectively. The Feature Pyramid Network (FPN) encoder contains four ResNet-50-like blocks. The features from each of those blocks are named x1, x2, x3, and x4, respectively. The figure also shows the details of the decoder, detection, and segmentation head in lime, orange and pink color respectively with further description placed inside the legend box.
 <p align="center">
   <img src="images/detailed_arch.png" div align=center>
 </p>
