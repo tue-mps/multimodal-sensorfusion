@@ -62,7 +62,7 @@ To compute Frames Per Second (FPS), please load the trained model and run:
 $ python 4-FPS.py
 ```
 ## Acknowledgments
-- Thanks to Eindhoven University of Technology and Elektrobit Automotive GmbH for their continous support.
+Thanks to Eindhoven University of Technology and Elektrobit Automotive GmbH for their continous support.
 
 ## License
 The repo is released under the BSD 3-Clause License.
