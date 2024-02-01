@@ -42,7 +42,7 @@ The configuration file is provided here: `config/config_allmodality.json`
 
 All pretrained models with config file for camera, camera-radar, camera-lidar and camera-radar-lidar are place here: [Download](https://drive.google.com/drive/folders/1LWGNDl83KXffw0y70bqBalbg2APYaLhC?usp=drive_link)
 
-Please run the following to train the model. Camera-Radar-Lidar early fusion for object detection will be chosen by default. Make sure to prepare the data and set the `config/config_allmodality.json` file appropriately to train any multi-tasking fusion model. 
+Please run the following to train the model. Camera-Radar-Lidar early fusion for object detection will be chosen by default. Make sure to prepare the data and set the `config/config_allmodality.json` file appropriately to train any multi-tasking fusion model in perspective view. Our code also provides Bird's Eye View fusion architectures, which is not in scope for this research. 
 ```bash
 $ python 1-Train.py
 ```
